@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">assignment4</string>
+    <string name="action_settings">Settings</string>
+    <string name="title">Android Service App</string>
+    <string name="title_description"> Creating and managing the lifecycle of Bound and Local services</string>
+    <string name="logo">spartan helmet</string>
+    <string name="pdf">PDFs Download Activity</string>
+    <string name="image">Images Download Activity</string>
+    <string name="textfile">Text Files Download Activity</string>
+    <string name="close">Close</string>
+    <string name="start_image">Start Download</string>
+    <string name="start_pdf">Start Download</string>
+    <string name="start_textfile">Start Download</string>
+    <string name="image_heading">Image Download Activity</string>
+    <string name="image_description">Enter 10 SJSU image files to download</string>
+    <string name="image_text1">Image 1 File Location:</string>
+    <string name="image_text2">Image 2 File Location:</string>
+    <string name="image_text3">Image 3 File Location:</string>
+    <string name="image_text4">Image 4 File Location:</string>
+    <string name="image_text5">Image 5 File Location:</string>
+    <string name="image_text6">Image 6 File Location:</string>
+    <string name="image_text7">Image 7 File Location:</string>
+    <string name="image_text8">Image 8 File Location:</string>
+    <string name="image_text9">Image 9 File Location:</string>
+    <string name="image_text10">Image 10 File Location:</string>
+    <string name="image_hint"></string>
+    <string name="pdf_heading">PDF Download Activity</string>
+    <string name="pdf_description">Please provide list of five SJSU PDF files to download</string>
+    <string name="pdf_text1">PDF 1 File Location:</string>
+    <string name="pdf_text2">PDF 2 File Location:</string>
+    <string name="pdf_text3">PDF 3 File Location:</string>
+    <string name="pdf_text4">PDF 4 File Location:</string>
+    <string name="pdf_text5">PDF 5 File Location:</string>
+    <string name="pdf_hint">Enter PDF location</string>
+    <string name="textfile_heading">Text File Download Activity</string>
+    <string name="textfile_description">Please provide list of five SJSU text files to download</string>
+    <string name="textfile_text1">Text 1 File Location:</string>
+    <string name="textfile_text2">Text 2 File Location:</string>
+    <string name="textfile_text3">Text 3 File Location:</string>
+    <string name="textfile_text4">Text 4 File Location:</string>
+    <string name="textfile_text5">Text 5 File Location:</string>
+    <string name="textfile_hint">Enter text location</string>
+    <!-- ******************Image locations*********************** -->
+    <string name="image1"> http://www.sjsu.edu/sjsuhome/pics/paintings-on-campus.jpg</string>
+    <string name="image2">http://www.sjsu.edu/academics/pics/acedemics.jpg</string>
+    <string name="image3">http://www.sjsu.edu/discover/pics/administration.jpg</string>
+    <string name="image4">http://info.sjsu.edu/info/img/land_admission.jpg</string>
+    <string name="image5">http://www.sjsu.edu/sjsuhome/pics/black-history-month-021114.jpg</string>
+    <string name="image6">http://www.sjsu.edu/sjsuhome/pics/back-to-school-012414.jpg</string>
+    <string name="image7">http://www.sjsu.edu/sjsuhome/pics/hiep-012714.jpg</string>
+    <string name="image8">http://www.sjsu.edu/housingoptions/pics/campus-housing.jpg</string>
+    <string name="image9">http://www.sjsu.edu/future_students/pics/student-photographer.jpg</string>
+    <string name="image10">http://www.sjsu.edu/alumni/pics/scholarships_piggybank_660.jpg</string>
+    <!-- ******************PDF locations*********************** -->
+    <string name="pdf1">http://engineering.sjsu.edu/files/public/media/faculty-and-staff/forms/rtp-guidelines.pdf</string>
+    <string name="pdf2">http://engineering.sjsu.edu/files/public/media/faculty-and-staff/forms/lab-safety-audit-form.pdf</string>
+    <string name="pdf3">http://www.sjsu.edu/communications/docs/photoReleaseForm.pdf</string>
+    <string name="pdf4">http://www.sjsu.edu/registrar/docs/major_minor_more_than_90.pdf</string>
+    <string name="pdf5">http://www.sjsu.edu/registrar/docs/address_change.pdf</string>
+    <!-- ******************TextFile locations*********************** -->
+    <string name="textfile1">http://www.sjsu.edu/robots.txt</string>
+    <string name="textfile2">http://cs.sjsu.edu/~austin/cs166-fall13/lab11.txt</string>
+    <string name="textfile3">http://cs.sjsu.edu/~austin/cs252-fall13/turkeyQuest.txt</string>
+    <string name="textfile4">http://www.engr.sjsu.edu/spartnik/newsletters/v5i1.txt</string>
+    <string name="textfile5">http://cs.sjsu.edu/~mak/archive/CS146-Summer2013/lectures/CountSortOutput.txt</string>
+
+</resources>

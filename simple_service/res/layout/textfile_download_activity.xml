@@ -1,0 +1,167 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#33CCFF"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView_textfile_heading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_toRightOf="@+id/imageView1"
+            android:text="@string/textfile_heading"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="8dp"
+            android:contentDescription="@string/logo"
+            android:src="@drawable/spartan" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/TextViewTextfileActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/textfile_description"
+        android:textAlignment="center"
+        android:textSize="12sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/TextViewText1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="@string/textfile_text1"
+            android:textSize="12sp" />
+
+        <EditText
+            android:id="@+id/editText_textfile1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/TextViewText1"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@+id/TextViewText1"
+            android:hint="@string/textfile_hint"
+            android:ems="10" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/TextViewText2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/textfile_text2"
+            android:textSize="12sp" />
+        <EditText
+            android:id="@+id/editText_textfile2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/TextViewText2"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@+id/TextViewText2"
+            android:hint="@string/textfile_hint"
+            android:ems="10" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/TextViewText3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/textfile_text3"
+            android:textSize="12sp" />
+        <EditText
+            android:id="@+id/editText_textfile3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/TextViewText3"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@+id/TextViewText3"
+            android:hint="@string/textfile_hint"
+            android:ems="10" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/TextViewText4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/textfile_text4"
+            android:textSize="12sp" />
+        <EditText
+            android:id="@+id/editText_textfile4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/TextViewText4"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@+id/TextViewText4"
+            android:hint="@string/textfile_hint"
+            android:ems="10" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/TextViewText5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/textfile_text5"
+            android:textSize="12sp" />
+        <EditText
+            android:id="@+id/editText_textfile5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/TextViewText5"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@+id/TextViewText5"
+            android:hint="@string/textfile_hint"
+            android:ems="10" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/buttonStartTextfile"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:onClick="startTextfileDownload"
+        android:text="@string/start_textfile" />
+
+</LinearLayout>
